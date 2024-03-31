@@ -4,7 +4,7 @@ using namespace std;
 class Book {
     private:
     string name;
-    string book_id;
+    string book_id;    //(book_id=ISBN)
     public:
     Book(string title, string book): name{title}, book_id{book} {}
 
